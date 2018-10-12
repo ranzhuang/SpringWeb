@@ -15,7 +15,7 @@ public class BaseInfoServiceImpl implements BaseInfoService {
     public List<BaseMessageInfoModel> findInfoModel(long max, int cout) {
         List<BaseMessageInfoModel> infoModels = new ArrayList<>();
         for (int i = 0; i < cout; i++) {
-            infoModels.add(new BaseMessageInfoModel("infoModel" + i, new Date()));
+            infoModels.add(new BaseMessageInfoModel((long) i,"infoModel" + i, new Date(),0.0,0.0));
         }
         return infoModels;
     }

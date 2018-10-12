@@ -17,7 +17,7 @@ public class BaseMessageInfoModel {
      *
      */
     public BaseMessageInfoModel(String message, Date time) {
-        this(null, message, time, null, null);
+        this(null, message, time, 0.0, 0.0);
     }
 
     /**构造器
