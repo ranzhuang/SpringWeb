@@ -16,7 +16,7 @@
 </head>
 <body>
     <h1>welcome to SpringWeb</h1>
-    <a href="<c:url value="/baseInfo"/>">Log</a>
-    <a href="<c:url value="/spritter/register"/> ">Register</a>
+    <a href="<c:url value="/baseInfo"/>">springWebInf</a> |
+    <a href="<c:url value="/springWeb/register"/> ">Register</a>
 </body>
 </html>

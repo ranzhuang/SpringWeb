@@ -4,6 +4,7 @@ package cn.funnyhuang.model;
 import java.util.Date;
 
 public class BaseMessageInfoModel {
+
     private final Long id;
     private final String message;
     private final Date time;
